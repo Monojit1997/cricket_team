@@ -1,0 +1,14 @@
+GET http://localhost:3000/players/
+###
+GET http://localhost:3000/players/4/
+###
+DELETE http://localhost:3000/players/5/
+###
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "Monojit",
+  "jerseyNumber": 18,
+  "role": "Bowler"
+}
